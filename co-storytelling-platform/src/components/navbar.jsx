@@ -12,8 +12,9 @@ const Navbar = () => {
 
           {/* Navigation Links */}
           <div className="hidden md:block">
-            <ul className="flex space-x-4">
+            <ul className="flex space-x-8">
               <li><a href="#" className="text-gray-300 hover:text-white">Home</a></li>
+              <li><a href="#" className="text-gray-300 hover:text-white">Notifications</a></li>
               <li><a href="#" className="text-gray-300 hover:text-white">Search</a></li>
               <li><a href="#" className="text-gray-300 hover:text-white">Settings</a></li>
             </ul>
